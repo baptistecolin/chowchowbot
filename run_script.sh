@@ -11,5 +11,5 @@ do
 	# the tweeted picture is archived in the "used" folder
 	mv "$file" pics/used
 	# then we wait a bit before tweeting another pic
-	sleep 60
+	sleep 3600
 done
