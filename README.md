@@ -25,6 +25,7 @@ Les photos qui seront tweetées seront celles qui se trouvent dans le dossier `p
 Après avoir été tweetée, chaque photo est déplacée dans `pics/used`
 
 ~~~~ Pour toute réclamation : ~~~~
+
 \\__ baptiste.colin@outlook.com __/
 
 
