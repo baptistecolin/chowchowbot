@@ -5,7 +5,7 @@ import sys, os
 pic_path = sys.argv[1]
 
 
-credentials_file = open('credentials')
+credentials_file = open('twitter_credentials')
 credentials_file_data = credentials_file.read()
 credentials_data = json.loads(credentials_file_data)
 
