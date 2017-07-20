@@ -28,7 +28,7 @@ Après avoir été tweetée, chaque photo est déplacée dans `pics/used`
 
 ### Authentification
 
-Un fichier nomme "credentials" doit etre present dans le dossier, et contenir les cles secretes necessaires pour s'authentifier aupres de Twitter.
+Un fichier nommé `twitter_credentials` doit être présent dans le dossier, et contenir les clés secrètes nécessaires pour s'authentifier auprès de Twitter.
 
 Il doit prendre la forme d'un JSON, comme suit :
 ```
@@ -45,12 +45,12 @@ Pour obtenir ces informations :
 * Rendez vous sur `apps.twitter.com`
 * Cliquez sur "Create new app"
 * Remplissez les informations requises
-* Une fois l'application cree, allez dans son onglet "Keys and access tokens"
+* Une fois l'application créée, allez dans son onglet "Keys and access tokens"
 * Dans "Application settings", vous trouverez ce qu'il faut mettre dans les champs "key" (API key) et "secret" (API secret)
 * Plus bas, cliquer sur "Regenerate my access token and secret"
 * Vous obtenez alors votre Access Token et votre Access Token Secret
-* Le fichier ou se trouvent les informations doit se nommer `credentials`, sans extension du type `.txt` ou autre
-* Chaque information collee dans le fichier `credentials` doit etre mise entre guillemets (`"`) !
+* Le fichier où se trouvent les informations doit se nommer `credentials`, sans extension du type `.txt` ou autre
+* Chaque information collée dans le fichier `credentials` doit être mise entre guillemets (`"`) !
 
 ------- Pour toute réclamation : -------
 
